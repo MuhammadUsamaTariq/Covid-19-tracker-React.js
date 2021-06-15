@@ -1,0 +1,21 @@
+@media(max-width : 750px){
+    .container{
+        margin: 0 10px;
+    }
+    .image{
+        width: 100%;
+    }
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top: 50px;
+}
