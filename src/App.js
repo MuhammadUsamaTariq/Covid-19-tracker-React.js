@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <img className={styles.image} src={covidImage} alt='Covid-19' />
+      <img className={styles.image} src={covidImage} alt='Covid-19'  />
       < Cards data={caseData} />
       < CountryPicker handleCountryChange={handleCountryChange} />
       < Chart  caseData={caseData} country={country}  />
